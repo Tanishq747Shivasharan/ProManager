@@ -207,34 +207,43 @@ Correlation does not prove causation. These are associations found in the datase
 
 ## Project Structure
 
-```
-it-project-delay-analytics/
-|-- data/
-|   |-- it_project_data.csv
-|   |-- it_project_data_processed.csv
-|-- src/
-|   |-- analysis.py    (data generation, cleaning, analysis, charts)
-|-- images/            (chart PNG files created by analysis.py)
-|-- requirements.txt
-|-- README.md
-```
+ProManager/
+│
+├── images/
+│
+├── powerbi/
+│   └── simple_dashboard_project_delay.pbix
+│
+├── src/
+│   ├── analytics.py
+│   └── chats.py
+│
+├── visualizations/
+│   ├── average_delay_by_department.png
+│   ├── bugs_vs_delay.png
+│   ├── planned_vs_actual_days.png
+│   ├── projects_by_delay_reason.png
+│   └── projects_by_department.png
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
 
 ## How to Run
 
 ```bash
-git clone https://github.com/<your-username>/it-project-delay-analytics.git
-cd it-project-delay-analytics
+git clone https://github.com/Tanishq747Shivasharan/Variance.git
+cd Variance
 pip install -r requirements.txt
-python src/analysis.py
+python src/analytics.py
+## Team
+
+* Kranti Ingale
+* Ankita Salpekar
+* Ankita Karke
+* Ayush Bage
+* Tanishq Shivasharan
+
 ```
-
-The script regenerates the dataset, prints all analysis results, and saves 10 charts (bar, scatter, line, and heatmap) to the `images/` folder.
-
----
-
-## Author
-
-**Your Name**
-GitHub: https://github.com/your-username
-
-LinkedIn: https://www.linkedin.com/in/your-profile
+```
