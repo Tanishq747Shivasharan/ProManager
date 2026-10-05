@@ -207,28 +207,25 @@ Correlation does not prove causation. These are associations found in the datase
 
 ## Project Structure
 
+```text
 ProManager/
-│
 ├── images/
-│
 ├── powerbi/
 │   └── simple_dashboard_project_delay.pbix
-│
 ├── src/
 │   ├── analytics.py
 │   └── chats.py
-│
 ├── visualizations/
 │   ├── average_delay_by_department.png
 │   ├── bugs_vs_delay.png
 │   ├── planned_vs_actual_days.png
 │   ├── projects_by_delay_reason.png
 │   └── projects_by_department.png
-│
 ├── .gitignore
 ├── LICENSE
 ├── README.md
 └── requirements.txt
+```
 
 ## How to Run
 
