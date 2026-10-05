@@ -156,18 +156,6 @@ Delay peaks in February and September and is lowest in October. Since the data i
 
 Correlation does not prove causation. These are associations found in the dataset.
 
----
-
-## Recommendations
-
-1. **Control scope changes.** Add a change-request approval process, especially for ERP and AI/ML projects where client changes are highest.
-2. **Add buffer time for high-risk project types.** Plan ERP and AI/ML timelines with extra contingency.
-3. **Catch bugs earlier.** Add earlier testing and code reviews to reduce bug counts that push projects late.
-4. **Do not rely on overtime.** It raises cost without improving task completion. Fix scope and staffing instead.
-5. **Staff small-team projects carefully.** Review workload on projects with 5 or fewer members.
-6. **Track delay and cost together.** Since they move together, an early delay signal should trigger a budget review.
-
----
 
 ## Dataset
 
