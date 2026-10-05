@@ -234,6 +234,7 @@ git clone https://github.com/Tanishq747Shivasharan/Variance.git
 cd Variance
 pip install -r requirements.txt
 python src/analytics.py
+```
 
 ## Team
 
